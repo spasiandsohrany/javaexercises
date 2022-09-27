@@ -23,7 +23,6 @@ public class Converter {
         return romanKeyMap.containsKey(number.charAt(0));
     }
 
-    //15
     public String intToRoman(int number) {
         String roman = "";
         int arabianKey;
@@ -36,7 +35,6 @@ public class Converter {
 
 
     }
-    //XV
     public int romanToInt(String s) {
         int end = s.length() - 1;
         char[] arr = s.toCharArray();
